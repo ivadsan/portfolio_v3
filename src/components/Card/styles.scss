@@ -1,0 +1,109 @@
+@import '../../styles/variables.scss';
+
+.card{
+    width: 390px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+    &__text{
+        z-index: 2;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+      
+
+        .projectName{
+            color: $-primary-color;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .technologies{
+            color: white;
+            font-size: 1rem;
+
+        }
+    }
+
+    &__button{
+        z-index: 3;
+        color: red;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+
+        button{
+            border: 2px solid $-secondary-color;
+            display: inline-block;
+            width: 150px;
+            text-align: center;
+            padding: 8px;
+            border-radius: 12px;
+            font-weight: bold;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+            transition: 100ms;
+
+           
+            &:hover{
+                transform: scale(1.1);
+            }
+            &:active{
+                transform: scale(0.9);
+            }
+        }
+
+    }
+
+    &__banner{
+        height: 100%;
+        background-color: transparent;
+        z-index:  1;
+        transition: all 0.3s ease-in-out;
+
+        img{
+            width: auto; 
+            max-height: 100%;
+        }
+    }
+
+    &:hover{
+      
+        transition: 500ms;
+
+        
+
+       
+    }
+
+    &:hover &__banner{
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:hover &__text{
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+        top: 70px;
+    }
+
+    &:hover &__button{
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+        bottom: 70px;
+    }
+
+   
+
+   
+}

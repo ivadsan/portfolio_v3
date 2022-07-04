@@ -1,0 +1,15 @@
+.lngBar {
+  position: absolute;
+  right: 32px;
+  top: -18px;
+
+  select {
+    color: white;
+    display: block;
+    font: 400 17px/2em "Source Sans Pro", sans-serif;
+    background: #1d1d1d;
+    border: none;
+    padding: 8px;
+    margin: 16px;
+  }
+}
