@@ -73,7 +73,7 @@ export default function NavBar() {
             <span className="option">{t("portfolio")}</span>
           </Link>
         </motion.li>
-        <motion.li
+        {/* <motion.li
           animate={isOpen ? "open" : "closed"}
           variants={items}
           whileHover={{ scale: 1.1 }}
@@ -86,7 +86,7 @@ export default function NavBar() {
 
             <span className="option">{t("skills")}</span>
           </Link>
-        </motion.li>
+        </motion.li> */}
       </motion.ul>
     </div>
   );
