@@ -1,10 +1,17 @@
 import React from 'react'
 import './styles.scss'
+import Flyer from '../Flyer'
+import {AiOutlineClose} from 'react-icons/ai'
 
-export default function Modal({children}) {
+export default function Modal({children, handleClose, data}) {
   return (
-    <div className='Modal'>
-        {children}
+    <div className='modal'>
+      <div className="modal__nav">
+        <button onClick={handleClose}>
+          <AiOutlineClose />
+        </button>
+      </div>
+        <Flyer handleClose={handleClose} data={data} />
     </div>
   )
 }

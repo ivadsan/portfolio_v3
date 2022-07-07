@@ -9,112 +9,82 @@ import {
   wteam,
   recipe
 } from '../../assets/images'
+
 export const data = {
     projects: [
       {
-        project: 'PepperPal - RobinFood',
+        project: 'pepperpal.project',
         organization: 'RobinFood',
+        position: 'pepperpal.position',
         shortDescription: '',
-        longDescription: ``,
-        technologies: 'NextJS, NextAuth, Redux',
-        images: [
-          'https://i.imgur.com/aswXW9W.png',
-          'https://i.imgur.com/7lvmSMW.png',
-          'https://i.imgur.com/sq9LTR0.png',
-          'https://i.imgur.com/qlzRnxS.png'
-        ],
+        longDescription: 'pepperpal.description',
+        technologies: 'NextJS, NextAuth, Redux, Docker, Sass',
+        images: pepperpal,
         cover: pepperpal[0],
         website: false,
         url: '',
         descLink: ''
       },
       {
-        project: 'PepperPal - RobinFood',
-        organization: 'RobinFood',
+        project: 'tu360Inmobiliario.project',
+        organization: 'ItGlobers',
+        position: 'tu360Inmobiliario.position',
         shortDescription: '',
-        longDescription: ``,
-        technologies: 'NextJS, NextAuth, Redux',
-        images: [
-          'https://i.imgur.com/aswXW9W.png',
-          'https://i.imgur.com/7lvmSMW.png',
-          'https://i.imgur.com/sq9LTR0.png',
-          'https://i.imgur.com/qlzRnxS.png'
-        ],
+        longDescription: 'tu360Inmobiliario.description',
+        technologies: 'React, Redux, VTEX, JQuery, VanillaJS, AWS',
+        images: tu360habitat,
         cover: tu360habitat[0],
         website: false,
         url: '',
         descLink: ''
       },
       {
-        project: 'Duncanville - RobinFood',
-        organization: 'RobinFood',
+        project: 'duncanville.project',
+        organization: 'Moción',
+        position: 'duncanville.position',
         shortDescription: '',
-        longDescription: ``,
-        technologies: 'NextJS, NextAuth, Redux',
-        images: [
-          'https://i.imgur.com/aswXW9W.png',
-          'https://i.imgur.com/7lvmSMW.png',
-          'https://i.imgur.com/sq9LTR0.png',
-          'https://i.imgur.com/qlzRnxS.png'
-        ],
+        longDescription: 'duncanville.description',
+        technologies: 'React, VanillaJS, Firebase, Sass',
+        images: duncanville,
         cover: duncanville[0],
         website: false,
         url: '',
         descLink: ''
       },
       {
-        project: 'Duncanville - RobinFood',
-        organization: 'RobinFood',
+        project: 'evius.project',
+        organization: 'Moción',
+        position: 'evius.position',
         shortDescription: '',
-        longDescription: ``,
-        technologies: 'NextJS, NextAuth, Redux',
-        images: [
-          'https://i.imgur.com/aswXW9W.png',
-          'https://i.imgur.com/7lvmSMW.png',
-          'https://i.imgur.com/sq9LTR0.png',
-          'https://i.imgur.com/qlzRnxS.png'
-        ],
+        longDescription: 'evius.description',
+        technologies: 'React, Redux, Firebase, Netlify, Mongo',
+        images: evius,
         cover: evius[0],
         website: false,
         url: '',
         descLink: ''
       },
       {
-        project: 'SICP - Sistema de Información Colegio Personalizado Pensamiento',
+        project: 'cpp.project',
         organization: 'Colegio Personalizado Pensamiento',
+        position: "cpp.position",
         shortDescription: 'Desarrollo de software para sistematizacion de la gestión académica y administrativa.',
-        longDescription: `Desarrollo del sistema de información para la sistematización de la gestión académica y administrativa, en procesos cómo:
-  - Admisión y matricula de estudiantes
-  - Administración y registro de anamnesis e informe de psicología
-  - Carga académica, registro de logros, notas y elaboración de boletines.
-  - Libro de calificaciones y seguimiento a recuperaciones
-  - Gestión del restaurante: Administración del servicio mensual, venta al detal, acceso al servicio a través de carné con código de barras.
-        `,
+        longDescription: 'cpp.description',
         technologies: 'PHP, MySQL, Bootstrap, JQuery',
-        images: [
-          'https://i.imgur.com/aswXW9W.png',
-          'https://i.imgur.com/7lvmSMW.png',
-          'https://i.imgur.com/sq9LTR0.png',
-          'https://i.imgur.com/qlzRnxS.png'
-        ],
+        images: cpp,
         cover: cpp[0],
         website: false,
         url: '',
         descLink: ''
       },
       {
-        project: 'Website - Grupo Rie',
+        project: 'gruporie.project',
         organization: 'Grupo Rie',
+        position: 'gruporie.position',
         shortDescription: 'Desarrollo de página web realizado por Cosmosoft . Diseño a cargo de Big Bang Creativo',
-        longDescription: `- Desarrollo y despliegue de la página web del Grupo Rie. 
-  - Diseño gráfico a cargo de Big Bang Creativo
-  - Documentación de administración del CMS`,
+        longDescription: 'gruporie.description',
         technologies: 'PHP, Joomla, MySQL',
-        images: [
-          'https://i.imgur.com/I1KWJsQ.png',
-          'https://i.imgur.com/6geNUT9.png',
-          'https://i.imgur.com/RiWdnoV.png',
-          'https://i.imgur.com/MvEFayq.png'],
+        images: gruporie,
         cover: gruporie[0],
         website: true,
         url: 'http://www.gruporie.com/',
@@ -123,15 +93,11 @@ export const data = {
       
       
       {
-        project: 'Crea la App de los Jóvenes Colombianos',
+        project: 'wteam.project',
         organization: 'Fedesoft, MinTIC, Platzi y la Alcaldía de Bogotá.',
+        position: "wteam.position",
         shortDescription: 'Tutor del equipo ganador en el concurso organizado por Fedesoft, MinTIC, Platzi y la Alcaldía de Bogotá.',
-        longDescription: `Tutor del equipo ganador en el concurso organizado por Fedesoft, MinTIC, Platzi y la Alcaldía de Bogotá. 
-        Entre las actividades que desarrollé con los estudiantes se encuentran:
-        - Enseñanza de HTML, CSS, JavaScript
-        - Organización y distribución de responsabilidades del equipo de trabajo
-        - Revisión del código
-        - Publicación del sitio web`,
+        longDescription: 'wteam.description',
         technologies: 'HTML, CSS, JavaScript',
         images: [
           'https://i.imgur.com/8ceNzTu.jpg',
@@ -144,24 +110,14 @@ export const data = {
       },
 
       {
-        project: 'PWA - Recipes',
+        project: 'recipe.project',
         organization: 'Platzi Master',
+        position: "recipe.position",
         shortDescription: 'PWA de recetas desarrollada con React',
-        longDescription: `- PWA de recetas desarrollada con React
-  - Implementa Responsive Design orientado a Mobile First 
-  - Utiliza Workbox como service worker implementando diferente estrategias de cacheado.
-  - Instalación de la aplicación en el home screen de Android
-  - Soporte para trabajar sin conexión con la app 
-  - Soporte para envío de notificaciones   
-        `,
+        longDescription: 'recipe.description',
   
         technologies: 'React, Vercel, PWA, Service Worker, Workbox',
-        images: [
-          'https://i.imgur.com/pPYgVix.png',
-          'https://i.imgur.com/Ykxc9ZA.png',
-          'https://i.imgur.com/YgMrrvY.png',
-          'https://i.imgur.com/4llEzt4.png'
-        ],
+        images: recipe,
         cover: recipe[0],
         website: true,
         url: 'https://recipe-app.cosmosoftroot.now.sh/',
@@ -173,23 +129,14 @@ export const data = {
 
       
       {
-        project: 'Podcasts',
+        project: 'podcasts.project',
         organization: 'Platzi Master',
+        position: "podcasts.position",
         shortDescription: 'Aplicación de Podcast que consume la API de AudioBooom realizado con NextJS',
-        longDescription: `- Aplicación de Podcast realizada con NextJS
-  - Consume la API de Audioboom, la cual distribuye contenido digital de tipo podcast
-  - Implementa Responsive Design orientado a Mobile First
-  - Incluye un reproductor de archivos de audio
-  - Desplegado en Vercel`,
+        longDescription: 'podcasts.description',
   
         technologies: 'NextJS, Vercel, React',
-        images: [
-          'https://i.imgur.com/8wJ7JkE.png',
-          'https://i.imgur.com/ElNaKyJ.png',
-          'https://i.imgur.com/Thj20Xd.png',
-          'https://i.imgur.com/lAktUZL.png'
-  
-        ],
+        images: podcasts,
         cover: podcasts[0],
         website: true,
         url: 'https://podcasts.cosmosoftroot.now.sh/',

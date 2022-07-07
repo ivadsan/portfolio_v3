@@ -1,0 +1,65 @@
+@import '../../styles/variables.scss';
+
+.flyer {
+  position: relative;
+  max-height: 90vh;
+  width: 680px;
+  background: white;
+
+  &__carousel {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+
+  &__text{
+    padding: 16px 16px 24px;
+    overflow-y: auto;
+    max-height: calc(90vh - 523.07px);
+
+    .project{
+        color: $-secondary-color;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .position{
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    
+    .description{
+        white-space: pre-line;
+        font-size: 0.8rem;
+        margin-top: 16px;
+    }
+    .technologies{
+      line-height: 1.4rem;
+    }
+  }
+
+
+  &__nav {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &-close {
+      width: 50px;
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: #1d1d1d;
+    }
+  }
+
+  .slick-slide img{
+    width: 100% !important;
+  }
+}

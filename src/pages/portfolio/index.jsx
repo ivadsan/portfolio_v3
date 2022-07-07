@@ -5,14 +5,18 @@ import { motion } from "framer-motion";
 import { data } from "../../bd/portfolio";
 import Modal from "../../components/Modal";
 import Loading from "../../components/Loading";
+import Flyer from "../../components/Flyer";
+
 
 export default function Portfolio() {
   const [loading, setLoading] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+  const [projectSelected, setProjectSelected] = useState(null)
   const { projects } = data;
+ 
 
-  const handleClick = (id) => {
-    setIsOpen(true);
+  const handleModal = (isOpen) => {
+    setIsOpen(isOpen);
   };
 
   useEffect(() => {
@@ -24,6 +28,17 @@ export default function Portfolio() {
       clearTimeout(idLoading);
     };
   }, []);
+
+  const handleOpen = (index) => {
+    handleModal(true)
+    setProjectSelected(data.projects[index])
+    document.getElementById('container_content').style.overflowY = 'hidden'
+  }
+
+  const handleClose = () => {
+    handleModal(false)
+    document.getElementById('container_content').style.overflowY = 'auto'
+  }
 
   return (
     <>
@@ -51,14 +66,17 @@ export default function Portfolio() {
                     imgUrl={data?.cover}
                     projectName={data?.project}
                     technologies={data?.technologies}
-                    handleClick={handleClick}
+                    handleOpen={()=>handleOpen(index)}
                   />
                 </motion.div>
               ))}
           </div>
         )}
       </div>
-      {isOpen && <Modal isOpen={isOpen} />}
+      {isOpen && (
+        <Modal handleClose={()=>handleClose()} data={projectSelected}/>
+          
+      )}
     </>
   );
 }

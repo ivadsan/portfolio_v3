@@ -16,7 +16,7 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     fallbackLng: 'es',
-    debug: true,
+    debug: false,
     Backend: {
       LoadPath: '/public/locales/{{lng}}/{{ns}}.json'
     }, 

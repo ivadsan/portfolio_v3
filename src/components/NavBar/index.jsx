@@ -79,7 +79,7 @@ export default function NavBar() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Link to="/">
+          <Link to="/skills">
             <div className="icon">
               <FaUserTie />
             </div>

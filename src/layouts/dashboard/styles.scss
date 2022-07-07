@@ -7,5 +7,7 @@
     .content{
         background-color: #1d1d1d;
         position: relative;
+        overflow: hidden;
+        overflow-y: auto;
     }   
 }

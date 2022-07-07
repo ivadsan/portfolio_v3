@@ -1,22 +1,17 @@
-.portfolio{
-    overflow: hidden;
-    // overflow-y: auto;
- 
+.portfolio {
+  .loading {
+    position: absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+  }
 
-    .loading{
-        position: absolute;
-        left: calc(50% - 100px);
-        top: calc(50% - 100px);
-    }
-
-    &__container{
-        max-width: 1170px;   
-        display: flex;
-        margin: auto;
-        max-height: 900px;
-        margin-top: 36px;
-        flex-flow: row wrap;
-       
-    }
+  &__container {
+    max-width: 1170px;
+    display: flex;
+    margin: auto;
+    max-height: 900px;
+    margin-top: 36px;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 }
-

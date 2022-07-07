@@ -1,0 +1,47 @@
+{
+    "pepperpal": {
+        "project": "PepperPal",
+        "position": "Senior Frontend Developer at RobinFood",
+        "description":  "SAAS for restaurant management.\n\nDevelopment from scratch of the administrative management system: Creation of products, menus, inventory control, orders to the kitchen and POS\n\nDevelopment of the application to place orders from the table with an integrated payment system.\n\nInternationalization of the software for managing different languages ​​(English, Portuguese and Spanish) and regional configuration according to the country of the restaurant (type of currency and time zones)"
+    },
+    "tu360Inmobiliario": {
+        "project": "Tu360Inmobilidario | Bancolombia",
+        "position": "Front-end developer leader at ITGlobers",
+        "description":  "Front-end leader of Bancolombia's Tu360Inmobiliario project for the sale of new and used real estate.\n\n- Active participation in the planning, architecture and development of the Seller Center (Content Manager) and the marketplace of the solution.\n\n- Review, approval and integration of the code sent to the development branch of the remote repository of the application.\n\n- Coordination, advice and support to other developers in technical skills"
+    },
+    "duncanville": {
+        "project": "Duncanville",
+        "position": "Developer Advance Plus at Moción",
+        "description":  "Development of the interactive world for the launch of the animated series Duncanville for Fox Channel (The Walt Disney)\n\n- Integration of audio visual pieces, mini games and 3D experience\n\n- Coordination of the development team"
+    },
+    "evius": {
+        "project": "Evius | Moción",
+        "position": "Developer Advance Plus en Moción",
+        "description":  "Front-End of the Evius platform specialized in the management of virtual events and/or conferences.\n\n- Programming of various authentication methods, surveys, graphing of results, data export and videoconference streaming component.\n\n- Bug fixes, code factorization and application of design patterns to improve the platform architecture.\n\n- Code review of the pull requests made to the development and production repository\n\n- Coordination, advice and support to other developers in technical skills.\n\n- Participation in the Front-end in projects such as Duncanville (Launch of the series on Fox Channel - The Walt Disney), Corona, Caracol Internacional, Castrol, chancery events among the most important."
+    },
+    "cpp": {
+        "project": "SICP - Sistema de Información Colegio Personalizado Pensamiento",
+        "position": "Software developer, Technology and web development instructor",
+        "description": "- Development of the SICP information system for the systematization of academic and administrative management.\n\n- Tutor of the winning team of the first contest for schools 'Create the App for Colombian Youth' organized by Fedesoft, MinTIC, Platzi and the Mayor's Office of Bogotá."
+    },
+    "gruporie": {
+        "project": "Website - Grupo Rie",
+        "position": "Freelancer",
+        "description": "- Development and deploy of the Rie Group website.\n\n- Graphic design by Big Bang Creativo\n\n - CMS administration documentation"
+    },
+    "wteam": {
+        "project": "Crea la App de los Jóvenes Colombianos",
+        "position": "Instructor",
+        "description": "Instructor of the winning team in the contest organized by Fedesoft, MinTIC, Platzi and the Mayor's Office of Bogotá.\n\nAmong the activities that I developed with the students are:\n\n- Teaching HTML, CSS, JavaScript\n\n- Organization and distribution of responsibilities of the work team\n\n- Code review\n\n- Website publication"
+    },
+    "recipe": {
+        "project": "PWA - Recipes",
+        "position": "Freelancer",
+        "description": "- Recipe PWA developed with React\n\n- Implements Responsive Design oriented to Mobile First\n\n- Use Workbox as a service worker implementing different caching strategies.\n\n- Installation of the application on the Android home screen\n\n- Support to work offline with the app\n\n- Support for sending notifications"
+    },
+    "podcasts": {
+        "project": "Podcasts",
+        "position": "Freelancer",
+        "description": "- Podcast application made with NextJS\n\n- Consumes the Audioboom API, which distributes podcast-type digital content\n\n- Implements Responsive Design oriented to Mobile First\n\n- Includes an audio file player\n\n- Deployed in Vercel"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "pepperpal": {
+        "project": "PepperPal",
+        "position": "Senior Frontend Developer en RobinFood",
+        "description": "SAAS para la gestión de restaurantes.\n\nDesarrollo desde cero del sistema de gestión administrativa: Creación de productos, menús, control de inventario, órdenes a la cocina y POS\n\nDesarrollo de la aplicación para realizar pedidos desde la mesa con sistema de pago integrado.\n\nInternacionalización del software para manejo de diferentes idiomas (inglés, portugués y español) y configuración regional según el país del restaurante (tipo de moneda y zonas horarias)"
+    },
+    "tu360Inmobiliario": {
+        "project": "Tu360Inmobilidario | Bancolombia",
+        "position": "Líder desarrollador Front-end en ITGlobers",
+        "description":  "Lider Front-end del proyecto Tu360Inmobiliario de Bancolombia para la venta de inmuebles nuevos y usados.\n\n- Participación activa en la planeación, arquitectura y desarrollo del Seller Center (Gestor de contenido) y el marketplace de la solución.\n\n- Revisión, aprobación e integración del código enviado a la rama de desarrollo del repositorio remoto de la aplicación.\n\n- Coordinación, asesoramiento y soporte a otros desarrolladores en competencias técnicas"
+    },
+    "duncanville": {
+        "project": "Duncanville",
+        "position": "Developer Advance Plus en Moción",
+        "description":  "Desarrollo del mundo interactivo para el lanzamiento de la serie animada Duncanville de Fox Channel (The Walt Disney)\n\n- Integración de las piezas audio visuales, mini juegos y experiencia 3D\n\n- Coordinación del equipo de desarrollo"
+    },
+    "evius": {
+        "project": "Evius | Moción",
+        "position": "Developer Advance Plus en Moción",
+        "description":  "Front-End de la plataforma Evius especializada en la gestión de eventos y/o conferencias virtuales.\n\n- Programación de diversos métodos de autenticación, encuestas, graficación de resultados, exportación de datos y componente de streaming de videoconferencia.\n\n - Solución de bugs, factorización de código y aplicación de patrones de diseño para el mejoramiento de la arquitectura de la plataforma.\n\n- Code review de los pull request realizados al repositorio de desarrollo y producción.\n\n- Coordinación, asesoramiento y soporte a otros desarrolladores en competencias técnicas.\n\n-Participación en el Front-end en proyectos como Duncanville (Lanzamiento de la serie en Fox Channel -  The Walt Disney ), Corona, Caracol Internacional, Castrol, eventos de la cancillería entre los más importantes."
+    },
+    "cpp": {
+        "project": "SICP - Sistema de Información Colegio Personalizado Pensamiento",
+        "position": "Desarrollador de software, Profesor de tecnología y desarrollo web",
+        "description": "- Desarrollo del sistema de información SICP para la sistematización de la gestión académica y administrativa.\n\n- Tutor del equipo ganador del primer concurso para colegios 'Crea la App de los Jóvenes Colombianos' organizado por Fedesoft, MinTIC, Platzi y la Alcaldía de Bogotá."
+    },
+    "gruporie": {
+        "project": "Website - Grupo Rie",
+        "position": "Freelancer",
+        "description": "- Desarrollo y despliegue de la página web del Grupo Rie.\n\n - Diseño gráfico a cargo de Big Bang Creativo\n\n- Documentación de administración del CMS"
+    },
+    "wteam": {
+        "project": "Crea la App de los Jóvenes Colombianos",
+        "position": "Instructor",
+        "description": "Tutor del equipo ganador en el concurso organizado por Fedesoft, MinTIC, Platzi y la Alcaldía de Bogotá.\n\nEntre las actividades que desarrollé con los estudiantes se encuentran:\n\n- Enseñanza de HTML, CSS, JavaScript\n\n- Organización y distribución de responsabilidades del equipo de trabajo\n\n- Revisión del código\n\n- Publicación del sitio web"
+    },
+    "recipe": {
+        "project": "PWA - Recipes",
+        "position": "Freelancer",
+        "description": "- PWA de recetas desarrollada con React\n\n- Implementa Responsive Design orientado a Mobile First\n\n- Utiliza Workbox como service worker implementando diferente estrategias de caché.\n\n - Instalación de la aplicación en el home screen de Android\n\n- Soporte para trabajar sin conexión con la app\n\n- Soporte para envío de notificaciones"
+    },
+    "podcasts": {
+        "project": "Podcasts",
+        "position": "Freelancer",
+        "description": "- Aplicación de Podcast realizada con NextJS\n\n- Consume la API de Audioboom, la cual distribuye contenido digital de tipo podcast\n\n- Implementa Responsive Design orientado a Mobile First\n\n- Incluye un reproductor de archivos de audio\n\n- Desplegado en Vercel"
+    }
+}

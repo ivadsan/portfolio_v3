@@ -5,6 +5,8 @@ import Layout from "./layouts/dashboard";
 import Loading from "./components/Loading";
 import "./styles/global.scss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Skills from "./pages/skills";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/skills" element={<Skills />} />
             </Routes>
           </Suspense>
         </Layout>

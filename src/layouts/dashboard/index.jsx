@@ -7,7 +7,7 @@ export default function Portfolio({children}) {
   return (
     <div className='container'>
         <SideMenu />
-        <div className='content'>
+        <div className='content' id='container_content'>
             <LngBar />
             {children}
         </div>
