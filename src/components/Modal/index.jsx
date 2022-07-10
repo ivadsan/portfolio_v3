@@ -1,14 +1,14 @@
 import React from 'react'
 import './styles.scss'
 import Flyer from '../Flyer'
-import {AiOutlineClose} from 'react-icons/ai'
+import {AiFillCloseCircle} from 'react-icons/ai'
 
 export default function Modal({children, handleClose, data}) {
   return (
     <div className='modal'>
       <div className="modal__nav">
         <button onClick={handleClose}>
-          <AiOutlineClose />
+          <AiFillCloseCircle />
         </button>
       </div>
         <Flyer handleClose={handleClose} data={data} />

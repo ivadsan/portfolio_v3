@@ -1,0 +1,44 @@
+@import "../../styles/variables.scss";
+
+.header {
+  display: none;
+  align-items: center;
+  background-color: #121212;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  svg {
+    color: white;
+    margin: 0px 16px;
+    display: inline-block;
+    font-size: 1.3rem;
+  }
+
+  @include for-phone-only {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.navbarMobile {
+  display: none;
+
+  .navBar {
+    justify-content: unset;
+  }
+
+  @include for-phone-only {
+    background: #121212;
+    display: block;
+  }
+}
+
+.footerMobile{
+  display: none;
+
+  @include for-phone-only{
+    display: block;
+  }
+}

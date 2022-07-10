@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+.sideMenuMobile {
+  background-color: #121212;
+  display: none;
+
+  @include for-phone-only {
+    display: block;
+    padding: 16px 0px;
+  }
+}

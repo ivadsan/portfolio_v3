@@ -11,6 +11,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    @include for-phone-only{
+      height: 100%;
+      align-items: flex-start;
+    }
   }
 
   .container {
@@ -22,27 +27,54 @@
 
     section {
       max-width: 1170px;
-      margin: auto;
+      margin: 16px auto 0px;
+
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
+
+      @include for-mobile-up {
+        flex-direction: row;
+        align-items: center;
+        margin: 0px auto;
+      }
 
       .title {
         color: $-primary-color;
         font-size: 6rem;
         margin-bottom: 24px;
+
+        @include for-phone-only {
+          font-size: 3rem;
+        }
       }
       .description {
         font-size: 1.7rem;
         color: white;
         opacity: 1;
         padding-right: 32px;
+
+        @include for-phone-only {
+          font-size: 1.4rem;
+        }
+      }
+
+      .col2 {
+        video {
+          @include for-phone-only {
+            width: 90%;
+          }
+        }
+
+        @include for-phone-only {
+          padding: 36px 0px;
+        }
       }
     }
 
-    .row {
-      display: flex;
-      flex-direction: column;
+    @include for-phone-only {
+      padding: 0px 24px;
+      justify-content: flex-start;
     }
   }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.scss";
-import { AiOutlineClose } from "react-icons/ai";
 import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -14,7 +13,16 @@ const settings = {
   slidesToScroll: 1,
   arrows: true,
   accessibility: true,
-  adaptiveHeight: true
+  adaptiveHeight: true,
+  responsive: [
+    {
+      breakpoint: 670,
+      settings: {
+        autoplay: true,
+        autoplaySpeed: 2000
+      }
+    }
+  ]
 };
 
 export default function Flyer({ handleClose, data }) {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles.scss";
 import { motion } from "framer-motion";
 import Loading from "../../components/Loading";
-import { useTranslation, withTranslation, Translation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import aboutme from "../../assets/aboutme.mp4";
 
 

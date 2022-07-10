@@ -1,12 +1,22 @@
-.footer{
-    height: 224px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+@import "../../styles/variables.scss";
 
-    svg{
-        color: white;
-        font-size: 1.6rem;
-        margin-right: 16px;
-    }
+.footer {
+  height: 90px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  a {
+    margin: 0px 16px;
+    display: inline-block;
+  }
+
+  svg {
+    color: white;
+    font-size: 1.6rem;
+  }
+
+  @include for-phone-only {
+    height: 45px;
+  }
 }

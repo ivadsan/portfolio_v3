@@ -1,8 +1,17 @@
+@import '../../styles/variables.scss';
+
 .portfolio {
   .loading {
     position: absolute;
     left: calc(50% - 100px);
     top: calc(50% - 100px);
+
+    @include for-phone-only{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      position: static;
+    }
   }
 
   &__container {
@@ -13,5 +22,10 @@
     margin-top: 36px;
     flex-flow: row wrap;
     justify-content: center;
+
+    @include for-phone-only{
+      margin-top: 0px;
+      max-height: unset;
+    }
   }
 }

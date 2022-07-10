@@ -1,2 +1,16 @@
 $-primary-color: #35fdd8;
 $-secondary-color: #fb2156;
+
+// responsive
+@mixin for-phone-only {
+    @media screen and (max-width: calc(670px - 1px)) {
+      @content;
+    }
+  }
+  
+  @mixin for-mobile-up {
+    @media screen and (min-width: 670px) {
+      @content;
+    }
+  }
+  

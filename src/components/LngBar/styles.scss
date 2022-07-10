@@ -1,15 +1,27 @@
+@import '../../styles/variables.scss';
+
 .lngBar {
   position: absolute;
   right: 32px;
-  top: -18px;
+  top: -8px;
 
   select {
     color: white;
     display: block;
     font: 400 17px/2em "Source Sans Pro", sans-serif;
-    background: #1d1d1d;
+    background: transparent;
     border: none;
     padding: 8px;
     margin: 16px;
+    cursor: pointer;
+
+    @include for-phone-only{
+      margin: 0px 8px;
+    }
+  }
+
+  @include for-phone-only{
+    right: 0px;
+    top: 0px;
   }
 }

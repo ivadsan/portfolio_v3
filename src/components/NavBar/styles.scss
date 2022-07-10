@@ -1,10 +1,8 @@
 @import "../../styles/variables.scss";
 
 .navBar {
-  height: 100px;
   position: relative;
-  height: calc(100vh - 448px);
-  min-height: 309px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +17,7 @@ ul {
     opacity: 0;
     transform: none;
     margin-bottom: 32px;
+    list-style-type: none;
     
     a{
       text-decoration: none;
